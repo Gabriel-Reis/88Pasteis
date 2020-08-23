@@ -14,6 +14,7 @@ class HomeController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
+        $this->middleware('verified')->only(['email']);
     }
 
     /**
@@ -23,6 +24,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        return view('home');
+    }
+
+
+    public function email()
+    {
+        return view('teste',['verified']);
     }
 }
