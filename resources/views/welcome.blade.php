@@ -7,7 +7,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <h3>OPA PAMONHA, DIGO PASTEL.</h3>
+                <h3>Card</h3>
             </div>
         </div>
     </div>
